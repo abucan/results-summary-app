@@ -27,6 +27,11 @@ const ButtonContainer = styled.button`
       hsl(241, 81%, 54%)
     );
   }
+
+  @media (max-width: 660px) {
+    margin-top: 10px;
+    width: 90%;
+  }
 `;
 
 export default ButtonContainer;

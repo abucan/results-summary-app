@@ -109,6 +109,10 @@ img {
   object-fit: cover;
 }
 
+.full-page {
+  min-height: 100vh;
+}
+
 @media (max-width: 660px) {
   p {
     max-width: 16em;

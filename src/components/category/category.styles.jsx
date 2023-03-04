@@ -1,18 +1,16 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.section`
-  .container {
-    width: 280px;
-    height: 50px;
-    background: var(--primary-light-red);
-    border-radius: 10px;
+const CategoryWrapper = styled.section`
+  width: 100%;
+  height: 50px;
+  background: var(--primary-light-red);
+  border-radius: 10px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px 0px 10px;
-    margin-top: 20px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  margin-top: 20px;
 
   .info {
     display: flex;
@@ -23,6 +21,7 @@ const Wrapper = styled.section`
 
   .score-result {
     display: flex;
+    align-items: center;
   }
 
   span {
@@ -37,6 +36,11 @@ const Wrapper = styled.section`
     font-weight: 700;
     opacity: 0.5;
   }
+
+  @media (max-width: 660px) {
+    margin-top: 0px;
+    width: 90%;
+  }
 `;
 
-export default Wrapper;
+export default CategoryWrapper;

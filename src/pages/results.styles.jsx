@@ -1,29 +1,16 @@
 import styled from 'styled-components';
 
-export const Title = styled.h6`
-  font-size: var(--heading-m);
-  color: var(--dark-gray-blue);
-
-  @media (max-width: 660px) {
-    justify-self: center;
-  }
-`;
-
 export const Wrapper = styled.section`
-  .container {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
+  display: grid;
+  justify-items: center;
+  align-items: center;
 
   .box {
     background: var(--white);
     box-shadow: var(--shadow-1);
-    border-radius: 32px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-radius: 32px;
   }
 
   .box-1 {
@@ -45,7 +32,11 @@ export const Wrapper = styled.section`
     border-bottom-right-radius: 32px;
     display: grid;
     align-items: center;
-    justify-items: start;
+    justify-items: center;
+  }
+
+  .title-box {
+    justify-self: start;
   }
 
   .circle {
@@ -97,14 +88,19 @@ export const Wrapper = styled.section`
     font-weight: 300;
   }
 
+  .title {
+    font-size: var(--heading-m);
+    color: var(--dark-gray-blue);
+  }
+
   @media (max-width: 660px) {
-    .container {
-      grid-template-columns: 1fr;
-      align-items: stretch;
-    }
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    align-items: stretch;
 
     .box {
       grid-template-columns: 1fr;
+      border-radius: 0;
     }
 
     .box-2 {
@@ -123,6 +119,7 @@ export const Wrapper = styled.section`
 
     .box-1 h6 {
       font-size: var(--mobile-heading-m);
+      margin-bottom: 0;
     }
 
     .circle h1 {
@@ -140,19 +137,32 @@ export const Wrapper = styled.section`
 
     .box-1 h5 {
       font-size: var(--mobile-heading-l);
+      margin-top: 0;
+      margin-bottom: 0;
     }
 
     .analyze-text {
       font-size: var(--mobile-p);
+      margin-top: -20px;
     }
 
     .box-2 h6 {
       font-size: var(--mobile-heading-m);
+      padding: 10px 0 10px 0;
+    }
+
+    .title-box {
+      width: 90%;
+      justify-self: center;
     }
 
     .box-2 p,
     span {
       font-size: var(--mobile-p);
+    }
+
+    .title {
+      justify-self: center;
     }
   }
 `;
