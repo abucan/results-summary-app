@@ -85,7 +85,7 @@ export const Wrapper = styled.section`
   .analyze-text {
     color: var(--light-lavender);
     line-height: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .title {
@@ -114,7 +114,7 @@ export const Wrapper = styled.section`
       border-radius: 0px;
       border-bottom-right-radius: 32px;
       border-bottom-left-radius: 32px;
-      padding: 20px;
+      padding: 5px 20px 20px 20px;
     }
 
     .box-1 h6 {
@@ -148,7 +148,7 @@ export const Wrapper = styled.section`
 
     .box-2 h6 {
       font-size: var(--mobile-heading-m);
-      padding: 10px 0 10px 0;
+      padding: 0;
     }
 
     .title-box {

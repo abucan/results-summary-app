@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ButtonContainer = styled.button`
-  margin-top: 40px;
+  margin-top: 30px;
   min-width: 280px;
   width: auto;
   height: 50px;
@@ -29,7 +29,7 @@ const ButtonContainer = styled.button`
   }
 
   @media (max-width: 660px) {
-    margin-top: 10px;
+    margin-top: 0px;
     width: 90%;
   }
 `;
