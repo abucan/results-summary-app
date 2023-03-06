@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const ButtonContainer = styled.button`
   margin-top: 30px;
   min-width: 280px;
-  width: auto;
   height: 50px;
 
   letter-spacing: 0.5;

@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Netlify](https://marvelous-praline-b89746.netlify.app/)
+- Solution URL: [Github](https://github.com/abucan/results-summary-app)
 - Live Site URL: [Netlify](https://marvelous-praline-b89746.netlify.app/)
 
 ## My process
