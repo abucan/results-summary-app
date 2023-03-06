@@ -56,8 +56,6 @@ for some inner components.
 - [CSS Grid](https://www.youtube.com/watch?v=0xMQfnTU6oo) - This helped me getting comfortable working with CSS Grid.
 - [Flexbox](https://www.youtube.com/watch?v=3YW65K6LcIA&t=9s) - This helped me getting comfortable working with Flebox.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Frontend Mentor - [@abucan](https://www.frontendmentor.io/profile/abucan)
