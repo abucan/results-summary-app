@@ -26,8 +26,8 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Design](../src/assets/final-look/desktop-design.png)
-![Active States](../src/assets/final-look/active-states.png)
-![Mobile Design](../src/assets/final-look/mobile-design.png)
+![Active States](./src/assets/final-look/active-states.png)
+![Mobile Design](./src/assets/final-look/mobile-design.png)
 
 ### Links
 
